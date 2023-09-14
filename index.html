@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham Kumar web devloper</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4138c4721d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/loggoo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#Protfolio">protfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm <span>Shubham</span><br>Kumar From India </h1>
+        </div>
+    </div>
+</div>
+
+
+<!---------about--------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>I am 3rd year student in B.tech (cse) the branch of <br>computer science that deals with the design, <br> development,  testing, and maintenance of software applications.<br>A passionate Full Stack web devloper having an experience<br> of building
+                     Web development with <br> HTML/CSS/JavaScript/Nodejs <br>and some others
+                      cool libraries and framework </p>
+                      <div class="tab-titles">
+                        <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-link"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-link"onclick="opentab('education')">Education</p>
+                      </div>
+                      <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019</span><br>secondary education with CBSE Delhi <br>from Begusarai, Bihar</li>
+                            <li><span>2019- 2021</span><br> Intermediate Education with BSEB<br>From Begusarai, Bihar</li>
+                            <li><span>2021- 2025</span><br> B.tech (cse) From CUTM Odisha </li>
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>NOW</span><br>There is no Experience <br>I am a fresher</li>
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Full Stack web devloper</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                      </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!----------Services-------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code fa-beat fa-2xl"></i>
+                <h2>Web Design</h2>
+                <p>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development. Web design used to be focused on designing websites for desktop browsers; however, since the mid-2010s, design for mobile and tablet browsers has become ever-increasingly important.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store fa-beat fa-2xl"></i>
+                <h2>App Design</h2>
+                <p>App design is the look and feel of a mobile application. This includes all of the visual elements and interactive elements that impact how the app functions. Mobile app design combines two concepts—UI and UX. The user interface (UI) encompasses the app's look and feel.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop fa-beat fa-2xl"></i>
+                <h2>UX/UI Design</h2>
+                <p>UX design involves managing the user journey as they interact with a product or service, while UI design focuses on the actual construction of that product or service's interface. UI design is usually considered part of the UX design process.</p>
+                <a href="#">learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!---------Protfolio-------------->
+<div id="Protfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-2 app.jpg">
+                <div class="layer">
+                    <h3>Social Media App </h3>
+                    <p>This app connect you to the tilented people around the world.
+                        Download it from Play store.<br>
+                        Click below link icon.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3 webq.jpg">
+                <div class="layer">
+                    <h3>CSaR website </h3>
+                    <p>This website connect you to the student in sport and other (CSaR).<br>
+                        this Website open in any browsers.<br>
+                        Click below link icon.
+                    </p>
+                    <a href="http://csarcutmpkd.000webhostapp.com/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-1 g.jpg">
+                <div class="layer">
+                    <h3>Gamings App </h3>
+                    <p>This app connect you to the vertual  world and it is good for your brain exercise.
+                        Download it from Play store.<br>
+                        Click below link icon.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!---------------------Contact------------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope" style="color: #b8ca77;"></i> k204781shubham@gmail.com</p><br>
+                <p><i class="fa-solid fa-phone-volume"></i> 7372849408</p><br>
+                <div class="social-icon">
+                    <a href="https://github.com/shubham7372"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://twitter.com/Shubham49326049"><i class="fa-brands fa-twitter"></i></i></a>
+                    <a href="https://www.instagram.com/it_s_lucky_yadav/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BbgGmIgoYQcaSX1FuAgwnBg%3D%3D"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Shubham(cv).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email"  name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @Shubham <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-link");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzD4_V7Z6ojs4D5o5tYArLar6CZH83eKvPjG98vIJoUQsw4RSHZtEOjLdhqwS92em9r1g/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
